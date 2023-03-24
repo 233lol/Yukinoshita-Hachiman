@@ -2,7 +2,7 @@
 
 var stop, staticx;
 var img = new Image();
-img.src = "assets/img/sakura.png";
+img.src = "assets/img/maple-leaf.png";
 
 // 樱花数量
 var sakuraNum = 50;
