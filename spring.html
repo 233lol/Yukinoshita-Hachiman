@@ -15,17 +15,22 @@
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
     </head>
-    <script language="javascript">
-    const date = new Date();
-    const mon = date.getMonth()+1;
-    if(mon>=3&&mon<6){
-        location.replace("spring.html");
-    }else if(mon>=6&&mon<9){
-        location.replace("summer.html");
-    }else if(mon>=9&&mon<12){
-        location.replace("autumn.html");
-    }else{
-        location.replace("winter.html");
-    }
-    </script>
+    <body id="page-top">
+        <script src="js/sakuraPlus.js"></script>
+        <!-- Masthead-->
+        <header class="mastheadspr">
+            <div class="container px-4 px-lg-5 d-flex h-100 align-items-center justify-content-start">
+                <div class="d-flex justify-content-start">
+                    <div class="text-start">
+                        <h1 class="mx-auto my-auto ">Yukinoshita Hachiman</h1>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- Footer-->
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+    </body>
 </html>
